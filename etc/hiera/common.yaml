@@ -1,0 +1,4 @@
+---
+message: "This node is using common data"
+description: "Common host"
+profile::example::message: "Hello, World!"

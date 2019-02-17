@@ -1,0 +1,10 @@
+---
+lookup_options:
+  profile::packages::packages:
+    merge:
+      strategy: deep
+      merge_hash_arrays: true
+  profile::firewall::system_rules:
+    merge:
+      strategy: deep
+      merge_hash_arrays: true
