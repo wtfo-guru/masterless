@@ -12,3 +12,9 @@ puppet module install --target 'modules'  'puppetlabs-apt' --version '6.2.1'
 ```
 
 Commit modules to Git!
+
+## Wtf requirements
+```
+sed -e "!~/.puppet/!${PWD}/!" ./etc/puppet.conf
+gem install puppet-lint yaml-lint hiera-eyaml rake
+```
