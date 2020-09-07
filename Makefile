@@ -17,7 +17,7 @@ validate:
 
 # checks yaml syntax
 yamllint:
-	yamllint etc/ site/profile/
+	yaml-lint -qi etc/ site/profile/
 
 # deletes caches and runtime directories
 clean:
